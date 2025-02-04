@@ -1,0 +1,71 @@
+<!--semantic HTML is important, because it improves accessibility. It allows screen readers to more precisely read the web page, and it allows
+search engines to find things more easily-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--it is good to specify the language-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Practice</title>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Semantic HTML Web Page</h1>
+      <nav>
+        <!--this list would look the same without the nav element. However, nav tells the screen reader that this is a navigation section.-->
+        <ul>
+          <li><a>list item 1</a></li>
+          <li><a>list item 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <!--figure allows you to more precisely separate out your image-->
+        <img
+          src="#"
+          alt="this allows you to put a description of the picture for accessibility"
+        />
+        <figcaption>a description of the photo</figcaption>
+        <!--this also improves accessibility by describing the image. However, its best practice to use either alt or caption, not both-->
+      </figure>
+      <article>
+        <!--functions like a div but specifies that the following section is a self-contained section.-->
+        <section>
+          <!--very similar to article; represents a thematic grouping of content-->
+          <p>
+            Lorem ipsum dolor sit, <strong>amet</strong> consectetur adipisicing
+            elit.
+            <!--strong makes text bold but gives more context-->
+            Commodi magnam ab necessitatibus deleniti excepturi tenetur nihil
+            voluptatibus assumenda est <em>earum</em> cupiditate aperiam sequi
+            ipsam,
+            <!--italicizes the text but also notes that it is being emphasized-->
+            consequatur esse laboriosam mollitia temporibus quae.
+          </p>
+        </section>
+      </article>
+      <aside>
+        <!--functions like a div but specifies that this section is related to the other sections in only a peripheral way.-->
+        <table>
+          <thead>
+            <tr scope="row">
+              <th scope="col"></th>
+              <!--in tables, use scope to semantically define columns and rows-->
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+        </table>
+      </aside>
+    </main>
+
+    <footer>
+      <small>&copy;2025 Jacob Sherrill</small>
+      <!--small specifies something that is fine print (not necessarily small in size)-->
+    </footer>
+  </body>
+</html>
