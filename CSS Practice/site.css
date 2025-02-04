@@ -1,0 +1,32 @@
+p {
+  /* visibility: hidden      this is how you influence visibility; hidden keeps the spacing but removes the text
+  other options include collapse 
+  */
+
+  display: block; /*you can also effect the display ; treats the element as a single block or line 
+  
+  
+  other options:
+   display:inline; - treats the element as being inline, removes line breaks after element (additional elements will appear on the same line)
+  display: inline-block;* - will put other elements on the same line if there is space but still treats this element like a single block*/
+}
+
+h1 {
+  /* you can influence elements broadly */
+  color: red;
+}
+
+/* you can also assign id's and classes to narrow down styling effects 
+id's can only be used for one element
+classes can be used across multiple elements*/
+
+#test-id {
+  color: blue;
+  border: 1px transparent blue;
+}
+
+.test-class {
+  font-size: 1.5rem; /* rem is relative sizing compared to the root class (html)*/
+
+  /* em is relative sizing compared to the parent class(or next relevant parent class)*/
+}
