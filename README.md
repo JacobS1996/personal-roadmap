@@ -52,7 +52,17 @@ The files in this repository do not represent a single project but rather are a 
 
 # Project Links
 
+<h2>Desktop Applications</h2>
+
+Quiz Application: https://github.com/JacobS1996/quiz-application
+
+Recipe Organizer: https://github.com/JacobS1996/recipe-organizer
+
 # Contribution
 
+This repo is meant for the purpose of organizing information and personal practice only. As such, I do not expect any contribution to this repo. 
+
 # Credits
+
+While I created this repository, the idea for it came from Tim Corey's suggestion in his GitHub Accelerate course on IAmTimCorey.com. 
 
