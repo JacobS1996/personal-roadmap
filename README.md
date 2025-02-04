@@ -44,11 +44,16 @@ The files in this repository do not represent a single project but rather are a 
 
   Going forward, my plan is to continue practicing the things I have learned on a regular basis through direct practice and by developing additional projects. I hope to continue making desktop applications using WPF and WinForms as well as simple console applications to practice the fundamentals. 
 
-  That being said, while implementing practice of things I already have learned, my plan for the immediate future is to create several web applications. I would like to create some basic HTML and CSS pages and then implement this knowledge in the creation of websites using Razor Pages, MVC Framework, and Blazor. Once I have created projects in these technologies, I would like to learn how to use MAUI to create mobile applications. 
+  That being said, while implementing practice of things I already have learned, my plan for the immediate future is to create several web applications. I would like to create some basic HTML and CSS pages and then implement this knowledge in the creation of websites using Razor Pages, MVC Framework, and Blazor. This process will also include becoming more familiar with API's. While I am primarily focused on learning these technologies, I still plan to spend a small amount of time on coding days practicing fundamentals and learning Javascript.
+  
+  After developing several projects in the previously mentioned technologies, my plan is to expand my understanding of data access. I currently understand how to use T-SQL in connection with SQL Server Management Studio, and I know how to link a database with an application using Dapper. I would like to become more familiar with ADO.Net connections as well as alternative forms of data acccess. I would also like to spend some time gaining a better understanding of deploying an application as a finished product. 
 
-  After gaining experience in these areas, I would like to begin learning how to use Unity to develop video games and Python for its versatility. I would also like to explore music creation using Python.
-
-  If I can gain knowledge in all of these areas, I would also like to learn Javascript for its widespread use and to have another means of creating websites beyond the .Net technology stack. 
+  Once I have a handle on these things, I intend to start learning MAUI. Once I develop a few projects using MAUI, I need to evaluate which technologies to learn next or which areas to re-visit. Some of the areas I would like to explore are:
+  
+  - Game development using Unity
+  - Music creation using code (Python?)
+  - Python
+  - COBOL
 
 # Project Links
 
