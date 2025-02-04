@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="site.css" />
+    <!--this is how you link an external CSS file-->
+  </head>
+  <body>
+    <!--this is an example of internal css which applies across the page but only on this page-->
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+    <header>
+      <h1>Hello World</h1>
+    </header>
+    <main style="font-size: 20px">
+      <!--this is an example of inline css which is not recommended-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste at earum
+        minima quo, eaque suscipit deleniti aut soluta laborum nam?
+      </p>
+
+      <p id="test-id">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+        quisquam dolor assumenda et illum praesentium earum soluta libero quod
+        aliquid quas suscipit voluptatum reiciendis, repellendus nostrum
+        perferendis, ab debitis sit.
+      </p>
+    </main>
+    <footer class="test-class">
+      <small>&copy;2025 Jacob Sherrill</small>
+    </footer>
+  </body>
+</html>
