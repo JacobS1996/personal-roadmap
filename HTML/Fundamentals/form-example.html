@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <!--action specifies what to do wit info upon submit, method specifies way in which data is transferred-->
+      <label for="ageInput">Age: </label>
+      <!--label for input, for corresponds to the id-->
+      <input type="text" id="ageInput" name="ageInput" />
+      <!--text input type-->
+      <!--id and name generally should be the same unless input is a radio-->
+
+      <br />
+      <!--creates a line break-->
+
+      <label for="checkbox">Checkbox </label>
+      <!--checkbox returns bool based on whether it is checked-->
+      <input type="checkbox" id="checkboxInput" name="checkboxInput" />
+
+      <label for="option1">option1</label>
+      <input type="radio" id="option1" name="radioOptions" />
+
+      <label for="option2">option2</label>
+      <input type="radio" id="option2" name="radioOptions" />
+      <!--radio input represents multiple mutually exclusive options; the name should match 
+      for these options but the ids should be distinct-->
+
+      <button type="submit">Submit Form</button>
+      <!--buttons allow you to submit form info or perform other actions (ex. alter the page)-->
+    </form>
+  </body>
+</html>
