@@ -44,16 +44,41 @@ The files in this repository do not represent a single project but rather are a 
 
   Going forward, my plan is to continue practicing the things I have learned on a regular basis through direct practice and by developing additional projects. I hope to continue making desktop applications using WPF and WinForms as well as simple console applications to practice the fundamentals. 
 
-  That being said, while implementing practice of things I already have learned, my plan for the immediate future is to create several web applications. I would like to create some basic HTML and CSS pages and then implement this knowledge in the creation of websites using Razor Pages, MVC Framework, and Blazor. This process will also include becoming more familiar with API's. While I am primarily focused on learning these technologies, I still plan to spend a small amount of time on coding days practicing fundamentals and learning Javascript.
-  
-  After developing several projects in the previously mentioned technologies, my plan is to expand my understanding of data access. I currently understand how to use T-SQL in connection with SQL Server Management Studio, and I know how to link a database with an application using Dapper. I would like to become more familiar with ADO.Net connections as well as alternative forms of data acccess. I would also like to spend some time gaining a better understanding of deploying an application as a finished product. 
+  That being said, while implementing practice of things I already have learned, my plan for the immediate future is to create several web applications. I would like to create some basic HTML and CSS pages and then implement this knowledge in the creation of websites using Razor Pages, MVC, and Blazor. While learning more about web development, I would like to spend some time becoming more familiar with:
 
-  Once I have a handle on these things, I intend to start learning MAUI. Once I develop a few projects using MAUI, I need to evaluate which technologies to learn next or which areas to re-visit. Some of the areas I would like to explore are:
+    -API's
+    -App settings JSON files
+    -Logging
+    -Legal information regarding publishing websites and/or desktop applications
+    -Keeping data secure
+    -The process of hosting and deploying websites and databases
+    -I may have to learn a little about Entity Framework to make use of the authentication functionality built into Razor Pages and MVC
+    -How to properly publish applications for business or personal use
+  
+  After developing several projects in the previously mentioned technologies, my plan is to begin working with MAUI. While learning MAUI, I also intend to expand my knowledge of data access in a supplemental way. I already have a decent grasp of T-SQL and SQL Server Management Studio, but I would like to learn more about ADO.Net Connections and Entity Framework as well as other forms of data access. 
+
+  Once I develop a few projects using MAUI, I need to evaluate which technologies to learn next or which areas to re-visit. Some of the areas I would like to explore are:
   
   - Game development using Unity
   - Music creation using code (Python?)
   - Python
   - COBOL
+    
+  <h2>Tentative Schedule*</h2>
+
+  -Sunday: N/A
+  -Monday: Practice C# Fundamentals & Develop Desktop Applications 
+  -Tuesday: Practice/Learn HTML and CSS & Develop Web Applications
+  -Wednesday: Practice C# Fundamentals & Spend Time Learning New Skills
+  -Thursday: Practice/Learn HTML and CSS & Develop Web Applications
+  -Friday: Supplemental Learning* & Spend Time Learning New Skills
+  -Saturday: Supplemental Learning* & Develop Web Applications
+
+  *This schedule may be tweaked as I move forward in my learning process. 
+
+  **Includes areas of learning that are not the primary focus but may be beneficial in filling certain knowledge gaps such as API's, JSON files/app settings and configuration, logging, legal information, 
+  information about the process of publishing websites, data security, additional methods of data access, and any other topics that arise which appear to be pertinent to my learning process. 
+  
 
 # Project Links
 
