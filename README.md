@@ -18,6 +18,7 @@ The files in this repository do not represent a single project but rather are a 
   -C# fundamentals: syntax, variables, conditionals, loops, methods, collections, and working with objects </strong>
 
 <h2>I have a fairly decent understanding of the following:</h2>
+  
   <strong>-WPF
   
   -WinForms
@@ -33,12 +34,18 @@ The files in this repository do not represent a single project but rather are a 
   -T-SQL and SQL Server Management Studio
 
   <h2>I have been exposed to the following in a limited way:</h2>
-
+  <strong>
   -Connecting to API's
 
   -Javascript
 
   -Razor Pages
+
+  -MVC
+
+  -JSON Files
+
+  </strong>
 
   <h2>Plan Going Forward</h2>
 
@@ -67,11 +74,17 @@ The files in this repository do not represent a single project but rather are a 
   <h2>Tentative Schedule*</h2>
 
   -Sunday: N/A
+  
   -Monday: Practice C# Fundamentals & Develop Desktop Applications 
+  
   -Tuesday: Practice/Learn HTML and CSS & Develop Web Applications
+  
   -Wednesday: Practice C# Fundamentals & Spend Time Learning New Skills
+  
   -Thursday: Practice/Learn HTML and CSS & Develop Web Applications
+  
   -Friday: Supplemental Learning* & Spend Time Learning New Skills
+  
   -Saturday: Supplemental Learning* & Develop Web Applications
 
   *This schedule may be tweaked as I move forward in my learning process. 
