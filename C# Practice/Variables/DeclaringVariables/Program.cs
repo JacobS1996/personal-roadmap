@@ -61,6 +61,31 @@
             Console.WriteLine("isTrue is " + isTrue);
             Console.WriteLine($"isFalse is {isFalse}");
 
+
+
+            // NUMBERS
+
+            int number = 0; 
+            // integers are whole numbers; they can be used for basic mathematical operations, but there are issues with trying to divide them. Typically, doubles are better for performing math.
+            // integers are useful for incrementing through a loop, or for representing personal information (ex. an id, age, etc.). 
+
+            number = int.MaxValue; // different numerical data types have different minimum and maximum values; you can easily access these values using the .MaxValue or .MinValue properties
+
+            number = int.MinValue - 1; // if you set a value lower than minimum or higher than maximum, it will loop around; so 1 higher than max will loop back to the lowest value
+            // be careful with this
+
+            double number2 = 22.424245; // doubles are another numberical data type which can have decimal places. 
+            // They are useful for many mathematical calculations
+
+            float number3 = 24.5353F; // float is another numberical type; it requires the F at the end of the number. It is generally better to use a double than a float. 
+
+            decimal number4 = 44.422324242M;  // decimals use more memory than the above examples but are very precise and are the preferred data type when performing mathematical operations
+            // in a financial context. Decimals must have the M at the end of the number when hard-coded. 
+
+            
+
+            
+
             Console.ReadLine();
 
         }
