@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclaringVariables", "DeclaringVariables\DeclaringVariables.csproj", "{3B0C776A-F45A-4BB9-AD81-F16122357F5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{C2492853-72A1-4582-8525-05462D22C11C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B0C776A-F45A-4BB9-AD81-F16122357F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0C776A-F45A-4BB9-AD81-F16122357F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0C776A-F45A-4BB9-AD81-F16122357F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0C776A-F45A-4BB9-AD81-F16122357F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B0C776A-F45A-4BB9-AD81-F16122357F5C} = {C2492853-72A1-4582-8525-05462D22C11C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7BBFBA5-CF7E-4CA6-B737-E06CD82DC41A}
+	EndGlobalSection
+EndGlobal
