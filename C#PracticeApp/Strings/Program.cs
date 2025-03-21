@@ -20,6 +20,9 @@
 
             // DECLARING STRINGS - EXAMPLES
 
+            // A string is, functionally, any data wrapped in "". 
+            // A string is text, but that text can appear as letters, spaces, words, special characters, or numbers. 
+
             string numberText = "1234"; // these letters are text. They will not be treated as numbers for the purposes of mathematical operations unless they are parsed into a numerical data type. 
 
 
@@ -37,14 +40,16 @@
             myString = string.Empty; // a read-only field, does not create an object
 
             myString = ""; // a constant, does create an actual object
-
-
-            string blankSpace = "        "; // this string is not empty. It contains a series of spaces. 
+          
+                      
+          
+          string blankSpace = "        "; // this string is not empty. It contains a series of spaces. 
 
 
             //----------------------------------------------------------------------------------------------------------------------------------------
 
             // FORMATTING STRINGS
+
 
             myString = "This " + "is called" + "string concatenation" + blankSpace; // STRING CONCATENATION is when you combine strings together using the + operator. The + sign is not a space but 
             // simply indicates that the strings are being attached to one another. 
@@ -89,6 +94,7 @@
             Console.ReadLine(); // this allows the program to stay open until a key is pressed; it prevents it from closing too quickly when the application has been run. 
 
             
+
 
 
 
